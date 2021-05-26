@@ -1,0 +1,27 @@
+{
+  "name": "bluespace",
+  "version": "1.0.0",
+  "description": "MERN (MongoDB, Express, React, Node.js) stack project, developoing a public forum web application.",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "server": "^1.0.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "npm start --prefix blue_space",
+    "dev": "concurrently \"node server.js\" \" npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebN99/ForumMERN.git"
+  },
+  "author": "Caleb Norris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebN99/ForumMERN/issues"
+  },
+  "homepage": "https://github.com/CalebN99/ForumMERN#readme"
+}
